@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Add an offset so the sticky navbar doesn't cover the section title */
+section {
+  scroll-margin-top: 80px;
+}
