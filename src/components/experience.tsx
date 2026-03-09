@@ -1,4 +1,3 @@
-import React from "react";
 import { Briefcase, Calendar, MapPin } from "lucide-react";
 
 const Experience = () => {
@@ -48,7 +47,7 @@ const Experience = () => {
           {experiences.map((exp, index) => (
             <div key={index} className="group relative pl-8 md:pl-0">
               {/* Timeline Icon & Line */}
-              <div className="absolute left-0 md:left-[-60px] top-0 flex flex-col items-center h-full">
+              <div className="absolute left-0 md:-left-15 top-0 flex flex-col items-center h-full">
                 {/* ICON: Starts white/gray, turns blue on group-hover */}
                 <div className="p-3 rounded-xl shadow-lg z-10 transition-all duration-300 bg-white border border-slate-200 text-blue-600 group-hover:bg-blue-600 group-hover:text-white group-hover:border-blue-600">
                   <Briefcase className="w-5 h-5" />

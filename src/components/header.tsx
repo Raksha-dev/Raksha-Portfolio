@@ -1,4 +1,3 @@
-import React from "react";
 import htmlLogo from "../assets/html.avif";
 
 const Header = () => {
@@ -17,7 +16,7 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex justify-between h-16 items-center">
           {/* Left Side */}
-          <div className="w-12 flex-shrink-0">
+          <div className="w-12 shrink-0">
             <img
               src={htmlLogo} // Replace with your image
               alt="logo"

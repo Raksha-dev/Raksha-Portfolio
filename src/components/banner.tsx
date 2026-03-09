@@ -1,4 +1,3 @@
-import React from "react";
 import Typewriter from "typewriter-effect";
 import RakshaImage from "../assets/RakshaImage.jpg";
 
@@ -8,7 +7,7 @@ const Banner = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 lg:gap-24">
         {/* Left Side: Circular Image */}
         <div className="relative">
-          <div className="w-64 h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden shadow-2xl border-4 border-white">
+          <div className="w-64 h-64 md:w-80 md:h-80 lg:w-100 lg:h-100 rounded-full overflow-hidden shadow-2xl border-4 border-white">
             <img
               src={RakshaImage} // Replace with your image
               alt="Raksha Tamrakar"

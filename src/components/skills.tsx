@@ -1,12 +1,4 @@
-import React from "react";
-import {
-  Smartphone,
-  Globe,
-  Server,
-  Database,
-  Cloud,
-  Code2,
-} from "lucide-react";
+import { Globe, Server, Database, Cloud, Code2 } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
@@ -99,7 +91,7 @@ const Skills = () => {
                 after:absolute 
                 after:bottom-0 
                 after:left-0 
-                after:h-[6px] 
+                after:h-1.5 
                 after:w-full 
                 ${category.borderColor} /* Matches Icon Color */
                 after:origin-center 
