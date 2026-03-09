@@ -1,5 +1,6 @@
 import Typewriter from "typewriter-effect";
 import RakshaImage from "../assets/RakshaImage.jpg";
+import Resume from "../assets/Raksha-Tamrakar-Front_End_Engineer.pdf";
 
 const Banner = () => {
   return (
@@ -48,7 +49,14 @@ const Banner = () => {
 
           <div className="py-4">
             <button className="bg-[#1D61FF] hover:bg-blue-700 text-white px-8 py-3 rounded-full font-bold text-lg shadow-lg transition-all active:scale-95">
-              Download CV
+              <a
+                href={Resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="..."
+              >
+                Download CV
+              </a>
             </button>
           </div>
         </div>
