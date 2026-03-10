@@ -67,7 +67,7 @@ const ChatBot = () => {
                 <MessageSquare className="text-white w-4 h-4" />
               </div>
               <span className="text-white font-bold text-sm">
-                Recruiter Bot
+                Ask your query!
               </span>
             </div>
             <button
