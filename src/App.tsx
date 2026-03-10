@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./components/about";
 import Banner from "./components/banner";
+import ChatBot from "./components/chatBot";
 import Contact from "./components/contact";
 import Experience from "./components/experience";
 import Header from "./components/header";
@@ -17,6 +18,7 @@ function App() {
       <Experience />
       <Project />
       <Contact />
+      <ChatBot />
     </>
   );
 }
