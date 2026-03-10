@@ -1,4 +1,3 @@
-import React from "react";
 import {
   MonitorSmartphone,
   Sparkles,
@@ -58,7 +57,7 @@ const Project = () => {
 
         {/* Main Project Card with Responsive Padding and Grid */}
         <div
-          className="group relative bg-white rounded-[2rem] md:rounded-[3rem] border border-slate-100 p-6 md:p-12 
+          className="group relative bg-white rounded-4xl md:rounded-[3rem] border border-slate-100 p-6 md:p-12 
           shadow-[0_20px_50px_-20px_rgba(0,0,0,0.05)] 
           hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.1)] 
           lg:hover:-translate-y-2 transition-all duration-500 ease-out"
@@ -106,7 +105,7 @@ const Project = () => {
               {highlights.map((item, idx) => (
                 <div
                   key={idx}
-                  className="bg-slate-50/50 p-6 rounded-[2rem] border border-transparent hover:border-slate-200 hover:bg-white hover:shadow-lg transition-all duration-300 text-center flex flex-col items-center justify-center space-y-3 group/item"
+                  className="bg-slate-50/50 p-6 rounded-4xl border border-transparent hover:border-slate-200 hover:bg-white hover:shadow-lg transition-all duration-300 text-center flex flex-col items-center justify-center space-y-3 group/item"
                 >
                   <div className="p-3 rounded-2xl bg-white shadow-sm group-hover/item:scale-110 transition-transform">
                     {item.icon}
